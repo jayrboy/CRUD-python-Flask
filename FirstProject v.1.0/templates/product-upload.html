@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Upload File - Assets</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.svg') }}" />
+
+    <!-- Web Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/LineIcons.2.0.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tiny-slider.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/glightbox.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+
+</head>
+
+<body>
+
+    <br>
+    <div class="container">
+        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
+            <div class="form-group">
+                <h4 class="title" align="center">Upload File &#128196;</h4>
+                <form action="/product-upload" method="post" enctype="multipart/form-data">
+                    <br>
+
+                    <div align="center">
+                        <label><strong>Browse Excel File</strong></label>
+                        <p>
+                            <input type="file" name="upload_excel" required>.xlsx
+                        </p>
+                        <p style="color:red">
+                            <small>
+                                    **column : name, tpyes, price, details, picture**
+                            </small>
+                        </p>
+                    </div>
+
+                    <br>
+                    <br>
+                    <div class="button" align="center">
+                        <button type="submit" name="upload" class="btn">&#10133; Upload</button>
+                        <br>
+                        <br>
+                        <div>
+                            {{data|safe}}
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="title" align="center">
+        <br>
+        <a href="/product" role="button">
+            <h4>&#129415;</h4>
+        </a>
+    </div>
+    </footer>
+
+
+</body>
+
+
+
+</html>

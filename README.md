@@ -1,10 +1,9 @@
 # Flask-WebApp-FirstProject
-
 Install Program
 - XAMPP Server
-- MySQL Workbench Or phpMyAdmin
-- VS Code
-- Python3 and download library
+- MySQL Workbench or phpMyAdmin
+- VSCode
+- Python3 and Download library
   - pip install Flask
   - pip install mysql-connector-python
   - pip install hashlib

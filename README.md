@@ -1,4 +1,4 @@
-# Flask-WebApp-FirstProject
+# WebApp-FirstProject
 Install Program
 - XAMPP Server
 - MySQL Workbench or phpMyAdmin

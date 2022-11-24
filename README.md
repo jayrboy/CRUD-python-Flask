@@ -19,6 +19,5 @@
   - pip install mysql-connector-python
   - pip install hashlib
   
-
-Deploy
-- v.10  - เพิ่ม session การเข้าถึงหน้า /path อื่นๆ หลักจาก user sign-in
+# Deploy
+- เพิ่ม session การเข้าถึงหน้า /path อื่นๆ หลักจาก user sign-in

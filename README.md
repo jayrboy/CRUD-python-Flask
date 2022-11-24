@@ -2,6 +2,13 @@
  - Login Form
  - Excel Form import&export to database
  
+# Programming
+ - Font end
+   - HTML CSS JS Bootstrap
+ - Banck end
+   - Python Flask Framework
+ - DBMS
+   - MySQL
  
 Install Program
 - XAMPP Server

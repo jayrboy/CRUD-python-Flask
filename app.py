@@ -68,6 +68,7 @@ def validate_sign_up():
         conn.commit()
         conn.close()
         return render_template('sign-up-success.html')
+        
         # ถ้ากรอกไม่ครบจะกลับไปที่หน้า /sign-up
     else:
         return render_template('sign-up.html')
